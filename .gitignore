@@ -4,3 +4,10 @@ node_modules/
 *.log
 .DS_Store
 Thumbs.db
+
+# Scratch files from PDF extraction
+*.cjs
+*.mjs
+pdf_*.txt
+cmap_data.txt
+take-screenshots.ps1

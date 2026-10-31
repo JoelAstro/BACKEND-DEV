@@ -1,22 +1,19 @@
 {
   "name": "lab-01",
   "version": "1.0.0",
-  "description": "Lab 1: Node.js and Express server - Backend Development Fundamentals",
+  "description": "Lab 1 - Node.js and Express server for BDF Year II Term II",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "start:http": "node http-server.js",
-    "dev": "node --watch server.js"
+    "dev": "node --watch server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "nodejs",
-    "express",
-    "backend",
-    "http-server"
-  ],
+  "keywords": ["node", "express", "backend"],
   "author": "Ramireddy Joel",
   "license": "ISC",
+  "type": "commonjs",
   "dependencies": {
-    "express": "^4.21.2"
+    "express": "^5.3.0"
   }
 }

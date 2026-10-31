@@ -1,4 +1,7 @@
 node_modules/
 .env
-.env.local
-*.log
+*.cjs
+*.mjs
+pdf_*.txt
+cmap_data.txt
+take-screenshots.ps1
