@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
 // Route 2: GET /about (JSON with name and section)
 app.get('/about', (req, res) => {
   res.status(200).json({
-    name: process.env.STUDENT_NAME || 'Joel Prashanth',
+    name: process.env.STUDENT_NAME || 'Ramireddy Joel',
     registrationNumber: process.env.STUDENT_REG_NO || 'REG123456',
     section: process.env.STUDENT_SECTION || 'Aurora',
     module: 'Node.js and Express.js fundamentals'

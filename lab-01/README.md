@@ -1,7 +1,7 @@
 # Lab 1: Node.js and Express server
 
-**Student Name:** Joel Prashanth • **Registration Number:** [Insert Registration Number] • **Section:** Aurora  
-**Course:** Backend Development Fundamentals (Year II Term II) • **Faculty:** Joel Prashanth D  
+**Student Name:** Ramireddy Joel • **Registration Number:** [Insert Registration Number] • **Section:** Aurora  
+**Course:** Backend Development Fundamentals (Year II Term II) • **Faculty:** Ramireddy Joel D  
 **Live Link:** [Deployed Application Link (e.g. Render / Railway)](https://render.com) *(Update with your public URL if deployed, or see local run instructions below)*
 
 ---
@@ -53,7 +53,7 @@ cp .env.example .env
 Available environment variables:
 ```env
 PORT=3000
-STUDENT_NAME=Joel Prashanth
+STUDENT_NAME=Ramireddy Joel
 STUDENT_REG_NO=REG123456
 STUDENT_SECTION=Aurora
 ```
@@ -98,7 +98,7 @@ npm install
 | HTTP Method | Route | Status Code | Description | Response Type | Sample Output |
 |---|---|---|---|---|---|
 | `GET` | `/` | `200 OK` | Root endpoint displaying welcome text | Text (`text/plain`) | `"Welcome to the Express Server - Lab 1!"` |
-| `GET` | `/about` | `200 OK` | Returns student details and module information | JSON (`application/json`) | `{"name":"Joel Prashanth","registrationNumber":"...","section":"Aurora"}` |
+| `GET` | `/about` | `200 OK` | Returns student details and module information | JSON (`application/json`) | `{"name":"Ramireddy Joel","registrationNumber":"...","section":"Aurora"}` |
 | `GET` | `/time` | `200 OK` | Returns current server date and time using `new Date()` | JSON (`application/json`) | `{"currentTime":"Sat Oct 31 2026 ...","iso":"...","epoch":...}` |
 | `GET` / `*` | `/unknown-path` | `404 Not Found` | Catch-all handler for nonexistent paths | JSON (`application/json`) | `{"error":"Not Found","statusCode":404,"message":"..."}` |
 

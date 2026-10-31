@@ -14,7 +14,7 @@
     "backend",
     "http-server"
   ],
-  "author": "Joel Prashanth",
+  "author": "Ramireddy Joel",
   "license": "ISC",
   "dependencies": {
     "express": "^4.21.2"

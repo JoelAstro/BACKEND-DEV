@@ -2,8 +2,8 @@
 
 ## Backend Development Fundamentals - Labs Repository
 
-**Student Name:** Joel Prashanth • **Registration Number:** [Insert Registration Number] • **Section:** Aurora  
-**Academic Year:** Year II Term II • **Faculty:** Joel Prashanth D  
+**Student Name:** Ramireddy Joel • **Registration Number:** [Insert Registration Number] • **Section:** Aurora  
+**Academic Year:** Year II Term II • **Faculty:** Ramireddy Joel D  
 
 ---
 
