@@ -1,13 +1,30 @@
-node_modules/
-.env
-.env.local
-*.log
-.DS_Store
-Thumbs.db
 
-# Scratch files from PDF extraction
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+
+# Logs
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db 
+
+# PDF extraction scratch files
 *.cjs
 *.mjs
 pdf_*.txt
 cmap_data.txt
 take-screenshots.ps1
+
+# Temporary debugging files
+lab-03/debug-import.js
+lab-03/debug-table.js
+lab-03/debug-await.js
